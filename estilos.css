@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;/* Efecto al desplazarse por las secciones con scrol */   
+}
+/* Header donde esta logo */
+header {
+    width: 100%;
+    height: 100px;
+    background-image: url(recursos/header/headerFondo.jpg);
+}
+/* Se hace uso de los float left */
+#logo {
+    width: 40%;
+    height: 100px;
+    float: left;
+}
+/* donde estará el menu */
+.menuNavegacion {
+    width: 80%;
+    height: 100px;
+    margin: auto;
+}
+.menuLista {
+    width: 60%;
+    height: 100px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    float: right;
+    align-items: initial;
+}
+.menuLista li {
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Shippori Antique', sans-serif;
+}
+.menuLista li a {
+    color: white;
+}
+.menuLista li a:hover {
+    color: yellow;
+    font-size: 17px;
+}
+.redesheader {
+    position: fixed;
+    right: 40px;
+    top: 100px;
+    width: 30px;
+    height: 30px;
+}
+.redesheader img {
+    width: 100%;
+    height: auto;
+}
+.redesheader li {
+    margin: 10px 0px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    background-color: #000;
+    padding: 10px;
+    border-radius: 50%;
+    width: 100%;
+    border: 4px solid #C90;
+}
+#botonAbajo {
+    position: fixed;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    bottom: 100px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+#botonAbajo img {
+    width: 100%;
+    height: auto;
+}
+#banner {
+    width: 100%;
+    height: 800px;
+    background-image: url(recursos/body/fondoBody.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#bannerDescripcion {
+    width: 60%;
+    height: 400px;
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 40px;
+    color: #cccc66;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+}
+.contenedorImagen {
+    width: 35%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+/* Para separar cada seccion en la pagina */
+.separacionMenu {
+    width: 100%;
+    height: 80px;
+    background-image: url(recursos/header/headerFondo.jpg);
+}
+.moduloMenu {
+    width: 100%;
+    height: 400px;
+    background-color: #C7B299;
+    font-size: 22px;
+    font-family: 'Shippori Antique', sans-serif;
+    color: #060606;
+}
+.moduloMenu a {
+    background-color: #333;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+/* Se hace uso de dos clases para cuando el texto este en el lado izquiero y derecho */
+.moduloMenuTextoDer {
+    width: 46%;
+    float: right;
+    padding: 25px 2%;
+}
+.moduloMenuTextoIzq {
+    width: 46%;
+    float: left;
+    padding: 25px 2%;
+}
+/* Se usa un id en cada uno por cuestiones de la imagen que se usa como fondo */
+#menu01 {
+    width: 50%;
+    height: 400px;
+    float: left;
+    background-image: url(recursos/body/fondo01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#menu02 {
+    width: 50%;
+    height: 400px;
+    float: right;
+    background-image: url(recursos/body/fondo02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#menu03 {
+    width: 50%;
+    height: 400px;
+    float: left;
+    background-image: url(recursos/body/fondo03.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#menu04 {
+    width: 50%;
+    height: 400px;
+    float: right;
+    background-image: url(recursos/body/fondo04.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#promociones {
+    width: 100%;
+    height: 700px;
+    background-image: url(recursos/body/promociones/fondoPromociones.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    color: yellow;
+    text-align: center;
+}
+#centradorPromociones {
+    justify-content: center;
+}
+#sucursales {
+    width: 100%;
+    height: 1000px;
+    background-image: url(recursos/body/sucursal/fondoSucursales.jpg);
+    background-position: center;
+}
+#centrador {
+    width: 70%;
+    height: 1000px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Shippori Antique', sans-serif;
+    color: yellow;
+}
+#centrador h1 {
+    position: relative;
+    top: 10px;
+    text-transform: uppercase;
+}
+#centrador ul {
+    margin: auto;
+}
+#centrador li {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    margin-right: 20px;
+    align-items: center;
+}
+#centrador img {
+    width: 400px;
+    height: 300px;
+}
+#centradorFooter {
+    width: 80%;
+    margin: 0 auto;
+}
+#menu {
+    width: 100%;
+    height: 800px;
+}
+#menuCentrador {
+    width: 70%;
+    background-color: red;
+    height: 800px;
+    margin: auto;
+}
+footer {
+    width: 100%;
+    height: 200px;
+    background-image: url(recursos/body/fondorojo.jpg);
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+footer a {
+    color: white;
+}
+/* Es el contenedor principal */
+#fondoMenu {
+    width: 100%;
+    height: 3300px;
+    background-color: #C7B299;
+}
+/* Contenedor que alberga los elementos principales */
+.contenedor {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+/* Menu  */
+.menu02 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+}
+/* Titulo de la seccion */
+.menuGrupoTitulo {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+}
+.menuGrupo {
+    display: grid;
+    gap: 1.5em;
+    padding: 1.5em 0;
+}
+.menuElemento {
+    display: flex;
+}
+.menuElementoimagen {
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
+.menuElementoTexto {
+    flex-grow: 1;
+}
+.menuElementoTitulo {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.menuElementoNombre {
+    margin-right: 1.5em;
+}
+.menuElementoDescripcion {
+    line-height: 1.6;
+}
+.menuGrupo {
+    grid-template-columns: repeat(2, 1fr);
+}
+.menuElementoimagen {
+    width: 125px;
+    height: 125px;
+}
